@@ -58,6 +58,6 @@
     max-width: 500%;
 }
 
-.landing-page:active::before {
+.landing-page:hover::before {
     --scale: 1;
 }
