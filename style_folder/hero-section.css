@@ -18,7 +18,7 @@
     transition: 0.15s background-color, 0.15s text-shadow, 0.15s box-shadow;
     cursor: pointer;
 }
-.btn-planets:active button 
+.btn-planets:hover button  , .btn-planets:active button  
 
 {
     background-color: #ffffff;
