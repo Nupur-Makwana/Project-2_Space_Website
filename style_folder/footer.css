@@ -1,0 +1,67 @@
+.footer {
+  background-color: #111;
+  color: white;
+  padding: 19px 20px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.newsletter h3 {
+  margin-bottom: 15px;
+}
+
+.newsletter form {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.newsletter input {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  min-width: 250px;
+}
+
+.newsletter button {
+  padding: 10px 20px;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  
+}
+
+.social-icons a {
+  margin: 0 10px;
+  font-size: 24px;
+  color: white;
+  transition: 0.3s;
+}
+
+.social-icons a:hover   {
+  text-shadow: 0 0 5px#bebbbb, 0 0 10px #c5c1c1, 0 0 20px #88b8da, 0 0 30px#88b8da,
+            0 0 40px #88b8da, 0 0 50px #88b8da, 0 0 60px #88b8da;
+}
+
+.footer-nav {
+  margin: 15px 0;
+}
+
+.footer-nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+.footer-nav a:hover {
+  text-decoration: underline;
+}
+
+.credit {
+  margin-top: 10px;
+  font-size: 14px;
+}

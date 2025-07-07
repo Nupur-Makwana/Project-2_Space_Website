@@ -1,0 +1,30 @@
+.hero-section {
+    margin-top: 81px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    
+}
+
+
+.btn-planets button {
+    padding: 18px;
+    font-size: 18px;
+    border-radius: 30px;
+    border: none;
+    background-color: #000000;
+    color: white;
+    transition: 0.15s background-color, 0.15s text-shadow, 0.15s box-shadow;
+    cursor: pointer;
+}
+.btn-planets:active button 
+
+{
+    background-color: #ffffff;
+    color: black;
+     text-shadow: 0 0 5px#bebbbb, 0 0 10px #c5c1c1, 0 0 20px #88b8da, 0 0 30px#88b8da,
+            0 0 40px #88b8da, 0 0 50px #88b8da, 0 0 60px #88b8da;
+    box-shadow: 0 0 5px#bebbbb, 0 0 10px #c5c1c1, 0 0 20px #88b8da, 0 0 30px #88b8da,
+            0 0 40px #88b8da, 0 0 50px #88b8da, 0 0 60px #88b8da;
+}

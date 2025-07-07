@@ -1,0 +1,222 @@
+body {
+    background-image: url(nightskypic.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    line-height: 1.4;
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+    color: white;
+    /* overflow: hidden; */
+}
+
+
+@media(max-width :786px) {
+    .nav-bar {
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+        gap: 50px;
+        justify-content: center;
+
+    }
+
+    #tooltip-panel {
+        font-size: 14px;
+        text-align: center;
+
+    }
+
+    .landing-page::before,
+    .landing-page::after {
+        --scale: 0;
+        position: absolute;
+        top: -.25rem;
+        left: -51%;
+        transform: translateY(37px) scale(var(--scale));
+        transition: 50ms transform;
+    }
+
+    .landing-page::before {
+        white-space: normal;
+        max-width: 150px;
+        word-wrap: break-word;
+
+    }
+
+    .hero-section {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .main-heading,
+    .sub-heading,
+    .btn-planets {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+     .grid {
+        padding: 10px;
+    }
+
+    .grid-image {
+        border-radius: 0px;
+    }
+
+    .footer 
+    {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 30px;
+        flex-wrap: wrap;
+        padding: 20px;
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+}
+
+@media screen and (max-width:340px) {
+    .solar__container {
+        margin-inline: 1rem;
+    }
+
+    .card__data {
+        width: 250px;
+        padding: 1rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .card__container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 1120px) {
+    .card__container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .card__img {
+        width: 348px;
+    }
+
+    .card__data {
+        width: 316px;
+        padding-inline: 2.5rem;
+    }
+
+
+}
+
+@media screen and (max-width: 768px) {
+    .timeline {
+        margin: 50px auto;
+    }
+
+    .timeline::after {
+        display: none;
+    }
+
+    .time__container {
+        animation: movedown 1s linear forwards !important;
+        /* width: 100%;
+        padding-left: 60px;
+        padding-right: 20px;
+        left: 0 !important;
+        position: relative; */
+    }
+
+    .time__container:nth-child(2) {
+        animation-delay: 1.5s !important;
+    }
+
+    .time__container:nth-child(3) {
+        animation-delay: 2.5s !important;
+    }
+
+    .time__container:nth-child(4) {
+        animation-delay: 3.5s !important;
+    }
+
+    .time__container:nth-child(5) {
+        animation-delay: 4.5s !important;
+    }
+
+    .time__container:nth-child(6) {
+        animation-delay: 5.5s !important;
+    }
+
+    .time__container:nth-child(7) {
+        animation-delay: 6.5s !important;
+    }
+
+    .time__container:nth-child(8) {
+        animation-delay: 7.5s !important;
+    }
+
+    .time__container:nth-child(9) {
+        animation-delay: 8.5s !important;
+    }
+
+    .right-container,
+    .left-container {
+        left: 0 !important;
+        position: relative;
+    }
+
+    .time__container i {
+        left: 10px !important;
+        /* right: auto !important;  */
+    }
+
+    .text__box {
+        font-size: 14px;
+        padding: 10px 15px;
+        max-width: 300px;
+        width: 200px;
+        /* white-space: normal; */
+        display: inline-block;
+        border-radius: 10px;
+
+    }
+
+    .left-container-arrow,
+    .right-container-arrow {
+        left: -15px;
+        border-left: none;
+        border-right: 15px solid white;
+    }
+}
