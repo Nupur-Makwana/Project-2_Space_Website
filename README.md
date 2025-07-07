@@ -12,8 +12,8 @@ This is a single-page space-themed website designed and built by **me**. It incl
 
  Technology Used
  
-HTML
-CSS
+HTML5
+CSS3
 Font Awesome (for icons)
 
 Responsiveness
@@ -30,6 +30,6 @@ This project is **static only** — no JavaScript.
  There is only **one homepage** — no routing or additional pages.
 
 How to View
-https://nupur-makwana.github.io/Project-1_Space_Website/
+https://nupur-makwana.github.io/Project-2_Space_Website/
 
 Thank You
