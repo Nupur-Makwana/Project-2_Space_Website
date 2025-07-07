@@ -1,6 +1,6 @@
 # 🚀 Space Exploration - Single Page Website
 
-This is a single-page space-themed website. It includes sections like a hero banner, planet cards, a timeline of space missions, a styled image grid, and a responsive footer. Although some links and buttons are visually clickable, they do not redirect—this site is purely for visual design and layout practice.
+This is a single-page space-themed website designed and built by **me**. It includes sections like a hero banner, planet cards, a timeline of space missions, a styled image grid, and a responsive footer. Although some links and buttons are visually clickable, they do not redirect—this site is purely for visual design and layout practice.
 
  Features
 
@@ -30,7 +30,6 @@ This project is **static only** — no JavaScript.
  There is only **one homepage** — no routing or additional pages.
 
 How to View
-
-
+https://nupur-makwana.github.io/Project-1_Space_Website/
 
 Thank You
