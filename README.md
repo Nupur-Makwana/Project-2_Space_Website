@@ -30,6 +30,6 @@ This project is **static only** — no JavaScript.
  There is only **one homepage** — no routing or additional pages.
 
 How to View
-https://nupur-makwana.github.io/Project-2_Space_Website/
+(https://nupur-makwana.github.io/Project-2_Space_Website/)
 
 Thank You
